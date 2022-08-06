@@ -1,0 +1,31 @@
+function clicar() {
+    var nu1 = document.getElementById('inicio').value
+    var nu2 = document.getElementById('fim').value
+    var passo1 = document.getElementById('passo').value
+    var res = document.getElementById('res')
+    //var passo = Number(passo1)
+    //var n1 = Number(nu1)
+    //var n2 = Number(nu2)
+    
+    if (nu1.length == 0 || nu2.length == 0 || passo1.length == 0) {
+       alert('erro')
+      
+    }else{
+            var passo = Number(passo1)
+            var n1 = Number(nu1)
+            var n2 = Number(nu2)
+        for (var c = n1; c <= n2 ;c += passo) {
+            
+            //console.log(n1)
+           res.innerHTML = `A contagem de ${n1} até ${n2}, de ${passo} é ${c}`
+            
+        }    }
+    
+}
+    
+
+var i = 2
+for (var c = 1; i <= 10; c++) {
+    console.log(c)
+    
+}

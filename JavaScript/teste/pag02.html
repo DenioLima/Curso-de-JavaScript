@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="imagens prontas/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Capturando favoritos</h1>
+    </header>
+    <main>
+    <div id="pesLivro"></div>
+        <div id="btn1"> <input type="button" value="&#129293;" onclick="capturar()"></div>
+        
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script>
+    var exibirLivro = '';
+    for (i=0; i<livros.length; i++) {
+        exibirLivro += `<div class="itemLivro" nome="${livros[i].titulo}" onclick="selecionarLivro(${i})">
+                            <a href="livro.html">
+                                <img src="${livros[i].capa}">
+                                <br>
+                                <p>${livros[i].titulo}</p>
+                                <br>
+                            </a>
+                        </div>`
+        ;
+    }
+    document.getElementById('pesLivro').innerHTML = exibirLivro;
+</script>
+<script 
+    src="https://hatatori.github.io/search-engine-system/sistema_de_busca.js">
+</script>
+</html>

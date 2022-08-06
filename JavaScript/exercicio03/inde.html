@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens prontas/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Eventos Dom</title>
+</head>
+<body>
+    <header>
+        <h1>Eventos Dom</h1>
+    </header>
+    <main>
+        <section>
+            <div id="exemplo" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">Chelsea</div>
+        </section>
+        <section>
+            <p>Quero que quando eu cliquer em cima da div quero mudar o nome e tbm quero mudar a cor,para isso
+                 vou usar o <mark>onclick="clicar()"</mark>no html.No JavaScript vou usar uma <mark>function</mark> com o nome
+                 usar uma variavel e dar uma nome pra ela,vou usar o getElementById para pagar o id da div, e usar 
+                 o <mark>innerText</mark> para mudar a palavra dentro da div.
+            </p>
+            <p>Quando eu entrar com o ouse na div tbm quero colocar alguns efeitos, para isso 
+                vou usar <mark>onmouseenter="entrar()"</mark> no hmtl.Esse aq é da mems a forma do de cima,porem
+                toda vez que o mouse entrar na div, a palavra dentro da div vai mudar.   </p>
+            <p>Quando eu sair  com o mouse da div tbm quero que haja alguns efeitos, para isso 
+                vou usar <mark>onmouseout="sair()"</mark> no html, Esse é ao contrario, toda vez q o mouse sair de ntro da div 
+            a palavra da div vai mudar. </p>
+        </section>
+        <section>
+            <p>Mas quero criar uma forma de não ter q poluir o HTML com os eventos, quero 
+                colocar tudo dentro do JavaScript, para isso vou usar o <mark>addEventListener</mark> e acrecentar o evento q quero </p>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    
+    
+</body>
+</html>

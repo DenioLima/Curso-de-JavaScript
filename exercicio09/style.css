@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(80, 119, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 500px;
+    margin: 0% auto;
+    border-radius: 5%;
+    box-shadow: 7px 6px 14px #00000063;
+    text-align: center;
+}
+#imagem{
+    margin: 0% auto;
+}
+#formulario{
+    text-align: center;
+    color: rgb(53, 101, 155);
+    font-size: 20pt;
+    padding: 1%;
+    margin: 4%;
+
+}

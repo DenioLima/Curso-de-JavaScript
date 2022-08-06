@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(80, 119, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+header{
+    text-align: center;
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 5%;
+    box-shadow: 7px 6px 14px #00000063;
+    text-align: center;
+}
+#numero{
+    margin: 0 auto;
+}

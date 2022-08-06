@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens prontas/favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Capturando favoritos</title>
+</head>
+<body onload="exibir()">
+    <header>
+        <h1>Capturando favoritos</h1>
+        <a href="pag02.html">Pagina 02</a>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                Nome <input type="text" name="nome" id="nome" class="formulario" required><br><br>
+                Data de nascimento <input type="text" id="dtnascimento" name="dt" class="formulario"><br><br>
+                Telefone <input type="tel" name="telefone" id="telefone" class="formulario"><br><br>
+                CPF/CNPJ <input type="text" name="cpf" id="cpf" class="formulario"><br><br>
+                Email <input type="text" name="email" id="email" class="formulario"><br><br>
+                <input type="button" value="ENVIAR DADOS" id="botao" onclick="cadastrar()">
+            </form>
+        </section>
+    </main>
+    <footer >
+        <div id="livrosfavoritos"></div>
+    </footer>
+</body>
+</html>

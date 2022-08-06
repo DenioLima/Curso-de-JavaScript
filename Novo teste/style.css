@@ -1,0 +1,236 @@
+@charset "UTF-8";
+body{
+
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    display: flex;
+    margin-top: 1%;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.658);
+}
+header{
+    background-color: #885053;
+    padding: 0%;
+    margin: -1%;
+
+    
+}
+nav{
+    background-color:#BF9A9A;
+    padding: 0%;
+    text-align: center;
+    margin-bottom:0% ;
+}
+.paginas > a{
+    color: rgb(252, 252, 252);  
+    text-decoration: none;
+    font-size: small;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.295);
+    margin: 2%;
+}
+
+.paginas >:hover{
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255,0.2);
+    
+}
+ul{
+color: white;
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+padding: -1%;
+}
+#principal{
+   font-size: 1%;
+   padding-bottom: 0%;
+   margin-top: -6%;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.671);
+   
+}
+#principal > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    
+    
+}
+#principal > a:hover{
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255,0.2);
+    color: #ffffff;
+}
+#mc {
+    color: white;
+    margin-top:-5%;
+    margin-left:65%;
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.589);
+    
+}
+    
+
+#saudar{ 
+    margin-top: -75px;
+    margin-left: -215px;
+}
+
+img{
+    margin-top: -4%;
+    margin-left: 68%;
+    margin-bottom: 3%;
+    display: flex;
+}
+#mc > a{
+    color: rgb(253, 246, 246);
+    text-decoration: none;
+    
+}
+#mc > a:hover{
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255,0.2);
+    color: rgb(255, 255, 255)
+}
+.igual > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: none;
+    list-style-type: none;
+    
+}
+.igual > a:hover{
+    text-decoration: underline;
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255,0.2);
+    
+}
+
+#search {   
+    height: 0%;
+    width: 22%;
+    padding: 1%;
+    margin-left: 32%;
+    border-radius: 15px;
+    border: none;
+    margin-top: -6%;
+    margin-bottom: -1%;
+    display: flex;
+    outline: none; 
+}
+form{
+    background-color:#f5e3e02b;
+    font-family: fantasy;
+    width: 45%;
+    padding: 3% 1% 2% 3%;
+    margin: -3% 2% 1% 2%;
+    border-radius: 20px;
+    box-shadow: 7px 6px 5px #00000052;
+    outline: none;
+   
+}  
+#titulo{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #00000052;
+    margin-left: 2%;
+    margin-top: auto;
+}
+.formulario{
+    width: 95%;
+    border: none;
+    padding: 1%;
+    outline: none;    
+}
+.formulario:hover{
+    background-color:#4295951f;   
+}
+#botao{
+    background-color: #d13b3bf7;
+    color: white;
+    border: none;
+    width: 23%;
+    padding: 2%;
+    border-radius: 10px;
+    transition: 0,25;
+}
+#botao:hover{
+    background-color:rgb(151, 4, 4); 
+    cursor: pointer;
+}
+.livros{
+    display: flex;
+    margin-top: -27%;
+    margin-left: 65%;
+    width: 23%;
+}
+#pesquisa{
+    display: none;
+}
+#favoritos{
+    background-color: #e3e3e3;
+}
+#sec1{
+    background-color: white;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+#sec2{
+    text-align: center;
+    margin-left: 28%;
+}
+#tfav{
+    padding-left: 5%;
+    color: #885053;
+    font-size: xx-large; 
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 25%);
+}
+#fofav{
+    margin-left: 5%;
+}
+#butfav{
+    width: 5%;
+    margin-bottom: 7%;
+    margin-top: -7%;
+    margin-left: 80%;
+    display: block;
+    height: 30px;
+    background-color: rgb(211, 13, 13);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px; 
+    text-align: center;
+    transition: 0,25;
+}
+#butfav:hover{
+    background-color:rgb(151, 4, 4); 
+    cursor: pointer;
+}
+#usuario{
+    font-family: cursive;
+    font-size: x-large;
+    color: #885053;
+    margin-left: 9%;
+    margin-bottom: 1%;
+    margin-top: -1%;
+    text-shadow: 1px 1px 10px black;
+}
+#validacao{
+    background-color:#9cdba0;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: center;
+    margin-left: 12%;
+    border-radius: 10px;
+    font-size: x-large;
+    margin-bottom: 0%;
+    margin-top: -3%;
+    display: none;
+}
+#btn1{
+    margin-left: -49%;
+    margin-top: 27%;
+    position: fixed;
+}

@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+}
+header{
+    background-color: rgb(44, 161, 161);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+    
+}
+#exemplo{
+    width: 5%;
+    background-color: rgb(192, 191, 190);
+    color: rgb(255, 255, 255);
+    padding: 6%;
+    text-align: center;
+    margin: 0% auto;
+    font-size: 20pt;
+
+}

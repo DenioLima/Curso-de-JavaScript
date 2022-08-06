@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    background-color: rgb(226, 227, 228);
+}
+header{
+    background-color: rgb(61, 109, 61);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 1%;
+}main{
+    background-color: white;
+    width: 35%;
+    height: 100px;
+    margin: 0% auto;
+    padding: 2%;
+}

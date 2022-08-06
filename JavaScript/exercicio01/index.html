@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens prontas/icon favicon full.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Dom</title>
+</head>
+<body>
+    <header>
+        <h1>Primeiros passos no Dom</h1>
+    </header>
+    <main>
+        <section>
+            <p>Quero fazer  começar a interagir o javaScript com o HTML e o CSS, para isso vou 
+                usar uma varivel que vai recber <mark>document.getElementsByTagName()</mark>, quando usar sobre uma tag.  </p>
+        </section>
+        <section>
+            <div id="div"><p>Quero fazer a mesma coisa porem com id ao inves de tag, vou usar <mark>document.getElementById()</mark></p></div>
+        </section>
+        <section>
+            <a href="#"class="igual">link</a> <a href="#"class="igual" > link</a> <a href="#"class="igual" >link</a> 
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        var p1 = document.getElementsByTagName('p')[0]
+        p1.style.color = 'blue'
+        var div = document.getElementById('div')
+        div.style.color = 'red'
+        var igual = document.getElementsByClassName('igual')[0]
+        igual.style.color= 'green'
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    background-color: rgb(204, 204, 204);
+}
+header{
+    background-color: rgb(89, 74, 104);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+main{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 100px;
+    margin: 0% auto;
+    padding: 2%;
+}

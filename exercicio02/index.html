@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Segundo exercicio JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Segundo exercicio JavaScript</h1>
+    </header>
+    <main>
+        <section>
+            <p>Para converter uma variavel string em numeros, vou utilizar <mark>Number</mark> para conseguir fazer a soma
+             entre dois numeros, pq o prompt devolve a resposta como uma string.</p>
+        </section>
+        <section>
+            <p>Para converter um um numero para uma string, vou usar <mark>String</mark> antes ou depois da variavel.</p>
+        </section>
+        <section>
+            <p>Quero tbm fomatar minha String, para não ter q toda hora ficar colocano + em variavel,
+                para isso vu usar <mark>`´</mark> a crase ao inves das "" no comerço e no final, e no lugar 
+                do + m vou usar o <mark>${}</mark> e colocar a variavel entre chaves.
+            </p>
+            <p>Agora quero que a a mensagem seja escrita na tela, não mais por alerta,
+                para isso vou usar <mark>document.write</mark> e <mark>document.writeln</mark> para la ir para outra linha. 
+            </p>
+        </section>
+    </main>
+    <footer>
+        <script>
+            var n1 = Number(prompt("Fale um numero"))
+            var n2 = Number(prompt("Fale um numero"))
+            var s = n1 + n2
+            alert(`A soma  entre ${n1} e ${n2} é = `  + String(s))
+            var maior = prompt("Qual é o lider do campeonato ingles?")
+            document.writeln(`O ${maior} é o atual campeão da champions `)
+        </script>
+    </footer> 
+</body>
+</html>
